@@ -1,0 +1,19 @@
+{
+  "scripts": {
+    "tests": "vendor/bin/phpunit tests"
+  },
+  "autoload": {
+    "psr-4": {
+      "Alura\\Calisthenics\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Alura\\Calisthenics\\Tests\\": "tests/"
+    }
+  },
+  "require-dev": {
+    "php-ds/php-ds": "^1.4",
+    "phpunit/phpunit": "^10.0"
+  }
+}
